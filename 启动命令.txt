@@ -1,5 +1,1 @@
-docker run --name ksvdbbench -d  \
--p 8501:8501 \
---privileged=true \
---cap-add SYS_ADMIN \
-ks_vectordb_bench:v0.0.10
+docker run --name vdbbench -d  -p 8501:8501 --privileged=true --cap-add SYS_ADMIN melodyfx/vdbbench:v0.0.10
