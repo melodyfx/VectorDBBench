@@ -48,7 +48,7 @@ class Milvus(VectorDB):
         if not utility.has_collection(self.collection_name):
             fields = [
                 FieldSchema(self._primary_field, DataType.INT64, is_primary=True),
-                FieldSchema(self._scalar_field, DataType.INT64),
+                #FieldSchema(self._scalar_field, DataType.INT64),
                 FieldSchema(self._vector_field, DataType.FLOAT_VECTOR, dim=dim)
             ]
 
@@ -58,7 +58,7 @@ class Milvus(VectorDB):
             col = Collection(
                 name=self.collection_name,
                 schema=CollectionSchema(fields),
-                consistency_level="Session",
+                consistency_level="Eventually",
             )
 
             col.create_index(
@@ -179,7 +179,7 @@ class Milvus(VectorDB):
                 batch_end_offset = min(batch_start_offset + self.batch_size, len(embeddings))
                 insert_data = [
                         metadata[batch_start_offset : batch_end_offset],
-                        metadata[batch_start_offset : batch_end_offset],
+                        #metadata[batch_start_offset : batch_end_offset],
                         embeddings[batch_start_offset : batch_end_offset],
                 ]
                 res = self.col.insert(insert_data)

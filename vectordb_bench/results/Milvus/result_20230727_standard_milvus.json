@@ -14,7 +14,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "DISKANN",
@@ -40,7 +42,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "DISKANN",
@@ -66,7 +70,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "DISKANN",
@@ -92,7 +98,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "DISKANN",
@@ -118,7 +126,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "DISKANN",
@@ -144,7 +154,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "DISKANN",
@@ -170,7 +182,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "4c16g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "DISKANN",
@@ -196,7 +210,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "4c16g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "DISKANN",
@@ -222,7 +238,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "4c16g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "DISKANN",
@@ -248,7 +266,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "4c16g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -276,7 +296,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "4c16g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -304,7 +326,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "4c16g-disk",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -332,7 +356,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -360,7 +386,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -388,7 +416,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -416,7 +446,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -444,7 +476,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -472,7 +506,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -500,7 +536,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -528,7 +566,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "2c8g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -556,7 +596,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "16c64g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -584,7 +626,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "16c64g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -612,7 +656,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "16c64g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -640,7 +686,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "16c64g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -668,7 +716,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "16c64g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",
@@ -696,7 +746,9 @@
         "db": "Milvus",
         "db_config": {
           "db_label": "16c64g-hnsw",
-          "uri": "**********"
+          "uri": "**********",
+          "user": "root",
+          "password": "**********"
         },
         "db_case_config": {
           "index": "HNSW",

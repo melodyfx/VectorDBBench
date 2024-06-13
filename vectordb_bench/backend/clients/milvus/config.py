@@ -4,9 +4,15 @@ from ..api import DBConfig, DBCaseConfig, MetricType, IndexType
 
 class MilvusConfig(DBConfig):
     uri: SecretStr = "http://localhost:19530"
+    user: str
+    password: SecretStr
 
     def to_dict(self) -> dict:
-        return {"uri": self.uri.get_secret_value()}
+        return {
+            "uri": self.uri.get_secret_value(),
+            "user": self.user,
+            "password": self.password.get_secret_value(),
+        }
 
 
 class MilvusIndexConfig(BaseModel):
